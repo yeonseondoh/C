@@ -5,7 +5,7 @@ int main(){
     char str[30] = {0};
     int size, cnt = 0;
     int i;
-    printf("문장 입력: ");
+    printf("Input> ");
 
     gets(str);
     size = sizeof(str) / sizeof(str[0]);
@@ -25,6 +25,6 @@ int main(){
         }
     }
 
-    printf("바뀐 문장: %s \n", str);
+    printf("Output> %s \n", str);
     return 0;
 }
